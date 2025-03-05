@@ -34,7 +34,7 @@
         <button type="submit">ENTRAR</button>
         <a href="#" @click="openCadastro()">Criar Conta</a>
       </form>
-      <div v-if="loginSucesso" class="alerta-sucesso">
+      <div v-if="loginSucesso" class="alert-success">
         Login efetuado com sucesso!
       </div>
     </div>
@@ -175,7 +175,7 @@ export default defineComponent({
   text-decoration: none;
 }
 
-.alerta-sucesso {
+.alert-success {
   width: 250px;
   height: 36px;
   margin-top: 10px;

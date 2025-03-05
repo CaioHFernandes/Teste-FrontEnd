@@ -3,7 +3,7 @@
     <div class="modal-content">
       <div class="header-modal">
         <h2>Detalhes do veículo</h2>
-        <div class="fechar-modal" @click="fecharModalDetalhes">
+        <div class="close-modal" @click="fecharModalDetalhes">
           <img
             src="../../../../../assets/xmark.png"
             alt="Ícone de fechar
@@ -135,7 +135,7 @@ export default defineComponent({
   background-color: #007df0;
   color: white;
 
-  .fechar-modal {
+  .close-modal {
     width: 53px;
     height: 53px;
     padding: 10px;

@@ -3,7 +3,7 @@
     <div class="modal-content">
       <div class="header-modal">
         <h2>{{ isModoEdicao ? "Editar veículo" : "Cadastro de veículos" }}</h2>
-        <div class="fechar-modal" @click="fecharModal">
+        <div class="close-modal" @click="fecharModal">
           <img
             src="../../../../../assets/xmark.png"
             alt="Ícone de fechar modal"
@@ -125,7 +125,7 @@
             </div>
           </div>
         </form>
-        <div v-if="alertaSucesso" class="alerta-sucesso">
+        <div v-if="alertaSucesso" class="alert-success">
           Veículo cadastrado com sucesso!
         </div>
       </div>
@@ -268,7 +268,7 @@ export default defineComponent({
   background-color: #007df0;
   color: white;
 
-  .fechar-modal {
+  .close-modal {
     width: 53px;
     height: 53px;
     padding: 20px;
@@ -355,7 +355,7 @@ export default defineComponent({
   cursor: pointer;
 }
 
-.alerta-sucesso {
+.alert-success {
   width: 250px;
   height: 36px;
   margin-top: 10px;

@@ -8,12 +8,6 @@
     />
     <label for="on_label">Digite a placa ou cor do veículo</label>
   </FloatLabel>
-  <!-- <input
-      class="input-plate"
-      type="text"
-      placeholder="Digite a placa ou a cor do veículo"
-      @change="onChanged($event)"
-    ></input> -->
 </template>
 
 <script lang="ts">
@@ -46,15 +40,5 @@ export default defineComponent({
   display: flex;
   margin: 10px;
   align-items: center;
-}
-
-.input-plate {
-  width: 280px;
-  height: 40px;
-  top: 7px;
-  border-radius: 5px;
-  border: 1px solid #dfdfdf;
-  padding: 12px;
-  gap: 10px;
 }
 </style>

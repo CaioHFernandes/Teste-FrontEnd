@@ -29,7 +29,7 @@
       <tbody>
         <tr v-for="(value, index) in paginatedItems" :key="index">
           <td>
-            <div class="item-historico">
+            <div class="historic-item">
               <div class="container-icon">
                 <div v-if="value.acao === 'CADASTRADO'">
                   <img
@@ -196,7 +196,7 @@ td {
   border-top: 1px solid #ddd;
 }
 
-.item-historico {
+.historic-item {
   align-items: center;
 }
 

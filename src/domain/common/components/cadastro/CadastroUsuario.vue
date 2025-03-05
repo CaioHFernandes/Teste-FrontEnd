@@ -56,7 +56,7 @@
         <button type="submit">CADASTRAR</button>
         <a href="#" @click="openLogin">Fazer login</a>
       </form>
-      <div v-if="cadastroSucesso" class="alerta-sucesso">
+      <div v-if="cadastroSucesso" class="alert-success">
         Cadastro efetuado com sucesso!
       </div>
     </div>
@@ -206,7 +206,7 @@ export default defineComponent({
   text-decoration: none;
 }
 
-.alerta-sucesso {
+.alert-success {
   width: 250px;
   height: 36px;
   margin-top: 10px;

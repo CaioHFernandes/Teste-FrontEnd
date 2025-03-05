@@ -362,13 +362,6 @@ th {
   cursor: pointer;
 }
 
-.cadastro-filtros {
-  padding: 16px 12px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
 @media (max-width: 768px) {
   * {
     width: 100%;
